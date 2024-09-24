@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 import pandas as pd
 import os
 
-# Informations de connexion à la base de données PostgreSQL
 password = 'sarabtissam'
 username = 'postgres'
 host = "localhost"
