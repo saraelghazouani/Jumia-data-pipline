@@ -25,6 +25,7 @@ Pandas : Pour la manipulation des données et la sauvegarde dans Excel.
 
 ## Pré-requis
 
+
 Python 3.11 installé.
 
 Un compte PostgreSQL et un serveur fonctionnel.
@@ -39,3 +40,15 @@ Nom du produit
 Prix
 
 L'ancien prix
+
+
+```
+git init
+
+```
+
+#### how add link
+[Youtube](https://youtu.be/evz1LqEomTE) - learn program
+
+
+[Contact](https://www.linkedin.com/in/sara-el-ghazouani-378047268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BzhqlcgsPQZOomNE3aGUlbQ%3D%3D)
