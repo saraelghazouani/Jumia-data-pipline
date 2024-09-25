@@ -2,12 +2,12 @@ from sqlalchemy import create_engine
 import pandas as pd
 import os
 
-password = 'sarabtissam'
+password = 'your password'
 username = 'postgres'
 host = "localhost"
-database_name = "testDB"
+database_name = "database name"
 port = "5432"
-data_directory = r'C:\Users\sarae\OneDrive\Bureau\Jumia-data-pipline'
+data_directory = r'path\To\the\folder\jumia_ETL'
 
 # Fonction pour extraire les données des fichiers Excel
 def extract_data():
