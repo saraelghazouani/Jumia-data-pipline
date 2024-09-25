@@ -52,3 +52,7 @@ git init
 
 
 [Contact](https://www.linkedin.com/in/sara-el-ghazouani-378047268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BzhqlcgsPQZOomNE3aGUlbQ%3D%3D)
+
+#### how to add an image
+ 
+ ![exel] (data-exel.png)
