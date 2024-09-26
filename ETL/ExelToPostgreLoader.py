@@ -42,7 +42,8 @@ def load_data(data_frame, table_name):
     except Exception as error:
         print("Erreur lors du chargement des données : " + str(error))
 
+ if __name__ == '__main__':
     try:
-        extract_data()
+        extract_data()  # Appelle la fonction d'extraction des données
     except Exception as error:
         print("Erreur lors du processus d'extraction : " + str(error))
