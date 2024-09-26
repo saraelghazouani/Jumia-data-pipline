@@ -21,7 +21,15 @@ Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site J
 
 -[Pré-requis](#pré-requis)
 
--Installation
+-[Installation](#installation)
+
+* Cloner le dépôt
+
+* Configurer l'environnement Python
+
+* Installer les dépendances
+
+* Configurer la base de données PostgreSQL
 
 -Exécution du projet
 
@@ -48,16 +56,33 @@ Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site J
 ## Pré-requis
 
 
-
-
-
+## Installation 
+### 1-Cloner le dépôt
+Commencez par cloner le dépôt sur votre machine locale :
+```
+git clone https://github.com/saraelghazouani/Jumia-data-pipline.git
+```
+Ensuite, accédez au dossier du projet :
+```
+cd Jumia-data-pipline
+```
+### 2-Configurer l'environnement Python
+Assurez-vous que Python 3.11 est installé sur votre machine. Vous pouvez vérifier la version de Python avec la commande suivante :
+```
+python --version
+```
+### 3. Installer les dépendances
+```
+pip install beautifulsoup4 pandas sqlalchemy openpyxl psycopg2
+```
+### 4. Configurer la base de données PostgreSQL
+Vous devez avoir une instance de PostgreSQL en cours d'exécution. Si PostgreSQL n'est pas installé, vous pouvez le télécharger et l'installer à partir du [site officiel](https://www.postgresql.org/).
 ## contact
 [Sara elghazouani](https://www.linkedin.com/in/sara-el-ghazouani-378047268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BzhqlcgsPQZOomNE3aGUlbQ%3D%3D)
 
 
 
-#### how add link
-[Youtube](https://youtu.be/evz1LqEomTE) - learn program
+
 
 
 
