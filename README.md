@@ -5,15 +5,6 @@
 
 Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site Jumia à l'aide de Beautiful Soup, à les stocker dans un fichier Excel à l'aide de Pandas, puis à transférer ces données dans une base de données PostgreSQL en utilisant SQLAlchemy et Pandas.
 
-## Le flux général est le suivant :
-
-1-Extraction des données de produits depuis le site de Jumia.
-
-2-Transformation et organisation des données sous forme tabulaire.
-
-3-Sauvegarde des données dans un fichier Excel.
-
-4-Chargement des données dans une base de données PostgreSQL.
 
 ## Table des matières
 
@@ -23,19 +14,17 @@ Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site J
 
 -[Installation](#installation)
 
-* Cloner le dépôt
+* [Cloner le dépôt](#1-cloner-le-dépôt)
 
-* Configurer l'environnement Python
+* [Configurer l'environnement Python](#2-configurer-lenvironnement-python)
 
-* Installer les dépendances
+* [Installer les dépendances](#3-installer-les-dépendances)
 
-* Configurer la base de données PostgreSQL
+* [Configurer la base de données PostgreSQL](#4-configurer-la-base-de-données-postgresql)
 
--Exécution du projet
+-[Exécution du projet](#exécution-du-projet)
 
--Structure du projet
-
--Données extraites
+-[Structure du projet](#structure-du-projet)
 
 -[Contact](#contact)
 
@@ -71,29 +60,30 @@ Assurez-vous que Python 3.11 est installé sur votre machine. Vous pouvez vérif
 ```
 python --version
 ```
-### 3. Installer les dépendances
+### 3-Installer les dépendances
 ```
 pip install beautifulsoup4 pandas sqlalchemy openpyxl psycopg2
 ```
-### 4. Configurer la base de données PostgreSQL
+### 4-Configurer la base de données PostgreSQL
 Vous devez avoir une instance de PostgreSQL en cours d'exécution. Si PostgreSQL n'est pas installé, vous pouvez le télécharger et l'installer à partir du [site officiel](https://www.postgresql.org/).
+
+## Exécution du projet
+1. **Naviguer vers le projet** : Ici, tu indiques à l'utilisateur comment se déplacer dans le répertoire du projet.
+2. **Lancer le script** : Fournis la commande exacte à exécuter pour démarrer le projet.
+3. **Vérification dans PostgreSQL** : Indique comment vérifier que les données sont bien importées dans la base de données.
+4. **Logs d'exécution** : Explique comment l'utilisateur peut suivre les étapes d'exécution dans le terminal.
+
+## Structure du projet
+1-Extraction des données de produits depuis le site de Jumia.
+
+2-Transformation et organisation des données sous forme tabulaire.
+
+3-Sauvegarde des données dans un fichier Excel.
+
+4-Chargement des données dans une base de données PostgreSQL.
 ## contact
 [Sara elghazouani](https://www.linkedin.com/in/sara-el-ghazouani-378047268/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BzhqlcgsPQZOomNE3aGUlbQ%3D%3D)
 
 
 
-
-
-
-
-![2018_3large_Jumia](https://github.com/user-attachments/assets/6422d54e-ae5c-4a37-8d3b-eb57ac69135c)
-
-
-![Postgre-data](https://github.com/user-attachments/assets/4fce3a85-7b12-402f-92e3-f125e41eaf29)
-
-
-```
-git init
-
-```
 
