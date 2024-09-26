@@ -15,31 +15,39 @@ Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site J
 
 4-Chargement des données dans une base de données PostgreSQL.
 
+## Table des matières
+
+-[Technologies utilisées](#technologies-utilisées)
+
+-[Pré-requis](#pré-requis)
+
+-Installation
+
+-Exécution du projet
+
+-Structure du projet
+
+-Données extraites
+
+-Contact
+
 ## Technologies utilisées
 
-Python 3.11 : Langage de programmation principal pour le projet.
+-Python 3.11 : Langage de programmation principal pour le projet.
 
-Beautiful Soup 4 : Pour le scraping Web.
+-Beautiful Soup 4 : Pour le scraping Web.
 
-Pandas : Pour la manipulation des données et la sauvegarde dans Excel.
+-Pandas : Pour la manipulation des données et la sauvegarde dans Excel.
+
+-SQLAlchemy : Pour l'intégration avec PostgreSQL.
+
+-PostgreSQL : Base de données relationnelle pour stocker les données des produits.
+
+-Requests : Pour faire des requêtes HTTP aux pages Web.
 
 ## Pré-requis
 
 
-Python 3.11 installé.
-
-Un compte PostgreSQL et un serveur fonctionnel.
-
-pip pour installer les dépendances Python.
-
-## Données extraites
-Les données extraites de Jumia incluent :
-
-Nom du produit
-
-Prix
-
-L'ancien prix
 
 
 ```
