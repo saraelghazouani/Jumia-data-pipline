@@ -10,8 +10,6 @@ Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site J
 
 -[Technologies utilisées](#technologies-utilisées)
 
--[Pré-requis](#pré-requis)
-
 -[Installation](#installation)
 
 * [Cloner le dépôt](#1-cloner-le-dépôt)
@@ -41,10 +39,6 @@ Ce projet ETL (Extract, Transform, Load) vise à extraire des données du site J
 -PostgreSQL : Base de données relationnelle pour stocker les données des produits.
 
 -Requests : Pour faire des requêtes HTTP aux pages Web.
-
-## Pré-requis
-
-
 ## Installation 
 ### 1-Cloner le dépôt
 Commencez par cloner le dépôt sur votre machine locale :
@@ -67,14 +61,25 @@ pip install beautifulsoup4 pandas sqlalchemy openpyxl psycopg2
 ### 4-Configurer la base de données PostgreSQL
 Vous devez avoir une instance de PostgreSQL en cours d'exécution. Si PostgreSQL n'est pas installé, vous pouvez le télécharger et l'installer à partir du [site officiel](https://www.postgresql.org/).
 
-## Exécution du projet
-1. **Naviguer vers le projet** : Ici, tu indiques à l'utilisateur comment se déplacer dans le répertoire du projet.
-2. **Lancer le script** : Fournis la commande exacte à exécuter pour démarrer le projet.
-3. **Vérification dans PostgreSQL** : Indique comment vérifier que les données sont bien importées dans la base de données.
-4. **Logs d'exécution** : Explique comment l'utilisateur peut suivre les étapes d'exécution dans le terminal.
+! il est necessaire de changer les parametres (password, username, host, database_name, port, data_directory) dans le fichier ExelToPostgreLoader.py.
 
+## Exécution du projet
+1. **Naviguer vers le projet**
+   ```
+   cd Jumia-data-pipline
+   ```
+2. **Lancer le script**
+   ```
+   python scripts/etl_process.py
+   ```
+3. **Vérification dans PostgreSQL**
+   
+   Une fois le script exécuté, vous pouvez vous connecter à votre base de données PostgreSQL pour vérifier si les données ont été correctement importées.
+    ```
+    SELECT * FROM nom_de_la_table;
+    ```
 ## Structure du projet
-1-Extraction des données de produits depuis le site de Jumia.
+1-Extraction des données(nom,prix,l'ancien prix) de produits Iphone 15 pro max depuis le site de Jumia[[https://www.jumia.ma/](https://www.jumia.ma/)]].
 
 2-Transformation et organisation des données sous forme tabulaire.
 
